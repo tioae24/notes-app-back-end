@@ -78,7 +78,7 @@ const addNoteHandler = (request, h) => {
 
     if(index !== -1) {
       notes[index] = {
-        ...note[index],
+        ...notes[index],
         title,
         tags,
         body,
